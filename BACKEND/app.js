@@ -4,7 +4,7 @@ app.use(express.json());
 
 // import routes
 
-const product = require('./routes/productRoutes')
+const product = require('./routes/productRoutes');
 
 app.use('/api/v1',product)
 
